@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
-const ParentComponent = ({ setisLoggedIn, isLoggedIn }) => {
+const ParentComponent = ({ isLoggedIn }) => {
   return (
     <div>
       <h1>Parent Component</h1>
