@@ -5,7 +5,7 @@ const ParentComponent = ({ isLoggedIn }) => {
   return (
     <div>
       <h1>Parent Component</h1>
-      {isLoggedIn && <p>You are loggedin</p>}
+      {isLoggedIn && <p>You are logged in!</p>}
     </div>
   );
 };
